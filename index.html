@@ -10,33 +10,34 @@
     <title>Document</title>
 </head>
 
-<body>
-    <div class=" justify-content-center">
+<body class="bg-danger-subtle ">
+    <div class=" justify-content-center bg-body-tertiary container-fluid ">
         <form class="row gx-3 gy-2 align-items-center justify-content-center mt-4 ">
             <div class="col-sm-3">
                 <label for="name">Nome e cognome</label>
-                <input type="text" class="form-control" id="specificSizeInputName">
+                <input type="text" class="form-control" id="name" value="">
             </div>
 
             <div class="col-sm-3">
-                <label for="distance">km da percorrere</label>
-                <input type="text" class="form-control" id="specificSizeInputName">
+                <label for="distancekm">km da percorrere</label>
+                <input type="text" class="form-control" id="distancekm" value="">
             </div>
 
             <div class="col-sm-3">
                 <label for="age">Fascia d'etá</label>
-                <select class="form-select" id="specificSizeSelect">
+                <select class="form-select" id="age">
                     <option selected>Choose...</option>
-                    <option value="1">minorenne</option>
-                    <option value="2">maggiorenne</option>
-                    <option value="3">over 65</option>
+                    <option>minorenne</option>
+                    <option>maggiorenne</option>
+                    <option>over 65</option>
                 </select>
             </div>
         </form>
         <div class="mt-4 justify-content-center d-flex ">
-            <button type="button" class="btn btn-secondary mx-3 ">Secondary</button>
-            <button type="button" class="btn btn-secondary">Secondary</button>
+            <button type="button" class="btn btn-success mx-3 btngenera mb-4 ">genera</button>
+            <button type="button" class="btn btn-danger mb-4 ">annulla</button>
         </div>
+        
     </div>
 
     <script src="js/script.js" type="text/javascript"></script>

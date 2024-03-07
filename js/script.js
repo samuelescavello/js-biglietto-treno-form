@@ -19,3 +19,20 @@
 // else{
 //     document.getElementById('prezzo').innerHTML = `non hai inserito i giusti dati!!`
 // }
+
+let nomeCognome = document.getElementById('name');
+let numberKm = document.getElementById('distancekm');
+let ageUser = document.getElementById('age');
+let btninv = document.querySelector('.btngenera');
+
+// console.log(nomeCognome, numberKm, ageUser, btninv);
+
+btninv.addEventListener('click', function(){
+    // console.log('cliccato');
+    let testoNome = nomeCognome.value
+    let testoKm = numberKm.value
+    let testoAge = ageUser.value
+    // console.log(testoNome, testoKm, testoAge)
+    // calcolo biglietti
+    
+});
